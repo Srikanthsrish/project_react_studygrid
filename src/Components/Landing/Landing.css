@@ -1,0 +1,62 @@
+/* Landing.css */
+
+.landing-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .landing-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .intro-section {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .user-roles {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-roles li {
+    margin: 10px 0;
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-button,
+  .guest-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .guest-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .guest-button:hover {
+    background-color: #218838;
+  }
+  
